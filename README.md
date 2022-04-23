@@ -2,6 +2,24 @@
 
 > 这是我在学校发呆时想出来的非常简单的加密形式...
 
+## 快速开始
+
+人生苦短，如果你并不想进行开发或了解其它信息，
+
+请直接clone此仓库:
+
+```
+git clone https://github.com/wzk0/endecode
+```
+
+随后运行`example.py`
+
+> en.txt和de.txt是两个demo文件，用于测试文件加/解密功能.
+
+![功能图](https://ghproxy.com/https://raw.githubusercontent.com/wzk0/photo/main/Screenshot_2022-04-23-22-35-33-47.jpg)
+
+不过我还是建议你往下看看的！
+
 ## 原理
 
 通过26个英文字母在字母表中的对应顺序(a=0,b=1,c=2...)
