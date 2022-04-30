@@ -30,6 +30,7 @@ betalpha['']=''
 
 ##加密函数
 def encode(thing):
+	thing=str.lower(thing)
 	for elements in thing:
 		lists.append(elements)
 	length=len(lists)

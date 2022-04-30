@@ -22,7 +22,7 @@ if mode=='1':
 	print("\n1.输入内容加密\n2.文件内容加密\n")
 	moe=input("请输入模式:")
 	if moe=='1':
-		thing=input('请输入需要加密的内容(仅限英文字母,空格和英文状态的逗号):')
+		thing=input('请输入需要加密的内容(仅限大小写随意的英文字母,空格和英文状态的逗号):')
 		r=endecode.encode(thing)
 		do(r,"加密")
 	if moe=='2':
@@ -42,3 +42,4 @@ if mode=='2':
 		code=get(path)
 		r=endecode.decode(code)
 		do(r,"解密")
+
